@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #edf4ff;
+  background-color: #071120;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-1: #071120;
+  --bg-2: #0e1c33;
+  --surface: rgba(255, 255, 255, 0.08);
+  --surface-strong: rgba(255, 255, 255, 0.12);
+  --border: rgba(255, 255, 255, 0.16);
+  --text: #f5f8ff;
+  --muted: #8ea2c1;
+  --cyan: #3fd4ff;
+  --blue: #5f7cff;
+  --purple: #a56dff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(63, 212, 255, 0.16), transparent 26%),
+    radial-gradient(circle at top right, rgba(165, 109, 255, 0.14), transparent 26%),
+    linear-gradient(135deg, #071120 0%, #0d1830 45%, #081221 100%);
+  background-size: 220% 220%;
+  animation: backgroundShift 24s ease infinite;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+@keyframes backgroundShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}

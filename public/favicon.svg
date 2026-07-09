@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nexora logo">
+  <defs>
+    <linearGradient id="favicon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ec7ff" />
+      <stop offset="55%" stop-color="#5f7cff" />
+      <stop offset="100%" stop-color="#9b5cff" />
+    </linearGradient>
+    <linearGradient id="favicon-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#070b16" />
+  <rect x="7" y="7" width="50" height="50" rx="14" fill="rgba(255,255,255,0.06)" stroke="url(#favicon-gradient)" stroke-width="2" />
+  <path d="M20 20V44" stroke="url(#favicon-gradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M20 44L44 20" stroke="url(#favicon-gradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M44 20V44" stroke="url(#favicon-gradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M18 18L22 18" stroke="url(#favicon-sheen)" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+</svg>
