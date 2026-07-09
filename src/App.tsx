@@ -121,12 +121,17 @@ function App() {
           <p><b>Konum:</b> Türkiye</p>
         </div>
 
-        <form>
-          <input placeholder="Ad Soyad" />
-          <input placeholder="E-posta" />
-          <textarea placeholder="Mesajınız" />
-          <button type="button">Mesaj Gönder</button>
-        </form>
+        <form action="https://formsubmit.co/muhittina262@icloud.com" method="POST">
+  <input type="text" name="name" placeholder="Ad Soyad" required />
+  <input type="email" name="email" placeholder="E-posta" required />
+  <textarea name="message" placeholder="Mesajınız" required></textarea>
+
+  <button type="submit">Mesaj Gönder</button>
+</form>
+        
+        
+        
+          
       </section>
 
       <footer>
